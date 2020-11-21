@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <style>
+        body { background-color: #005883;}
+    </style>
+
+</head>
+<body>
+
+    <h1 class="titulo"> Estructura basica de HTML 5 </h1>
+
+    <div class="menu">
+
+        <a href="inicio.html">INICIO | </a>
+        <a href="conceptos.html">CONCEPTOS | </a>
+        <a href="recursos.html">RECURSOS | </a>
+        <a href="autoevaluacion.html">AUTOEVALUACION | </a>
+        <a href="autor.html">AUTOR | </a>
+       
+    </div>
+
+    <table class="tabla"> <br>
+        <h2> Conceptos </h2>    
+        <tr>
+            <td>
+                En HTML existe un esqueleto básico, que todos debemos de conocer porque se viene usando desde los inicios del lenguaje. 
+                Nos referimos a la conocida estructura del HEAD / BODY. 
+                Toda jerarquía de etiquetas comienza por < HTML > y dentro tenemos dos grandes bloques < HEAD > y < BODY >.
+                Hasta hace poco dentro del < BODY > se colocaban etiquetas como < DIV >, < SPAN >, < B >, etc. pero todas las etiquetas que usábamos decían poco a aquel sistema que las leyera. <br> 
+                ¿Qué significa < DIV >? pues simplemente que estamos colocando una «división» pero no especifica para qué se usa esa división.
+                Quizás < P > tiene algo más de significado, 
+                pero no deja de ser un párrafo a secas, sin decirte qué tipo de información va a contener ese párrafo.
+                Hoy, la recomendación es usar otro conjunto de etiquetas que sí nos aportan un significado al contenido que engloban. Pero esto no quiere decir que las etiquetas antiguas se dejen de usar, 
+                sino que ahora tenemos otra serie de etiquetas con valor semántico, que vienen a aportar nuevas facilidades que te resumiremos en el siguiente punto. 
+                De momento, analicemos estas etiquetas nuevas con valor semántico con la estructura de una web en mente. <br> <br>
+
+                HTML define un total de 91 etiquetas, de las cuales 10 se consideran obsoletas. 
+                Sin embargo, una etiqueta por sí sola a veces no contiene la suficiente información para estar completamente definida. 
+                Para ello contamos con los atributos: pares nombre-valor separados por "=" y escritos en la etiqueta inicial de un elemento después del nombre del elemento. 
+                El valor puede estar encerrado entre "comillas dobles" o 'simples'. 
+                Existen, también, algunos atributos que afectan al elemento por su presencia en la etiqueta de inicio, como puede ser el atributo ismap para el elemento. <br> <br>
+
+            </td>
+
+            <td>
+                <img src="estructurahtml.png" alt="Estrucutra HTML">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+
+                Esta sería la estructura general de una línea de código en lenguaje HTML: 
+                < a href="http://www.enlace.com" target="_blank" > Ejemplo de enlace < /a >
+                Donde: 
+                <ul>
+                    <li> <b> < a > </b> es la etiqueta o tag inicial y <b> < /a > </b> la etiqueta de cierre </li>
+                    <li> <b> href </b> y <b> target </b> son los atributos </li>
+                    <li> <b> http://www.enlace.com </b> y <b> _blank </b> son las variables </li>
+                    <li> <b> Ejemplo de enlace </b> es el contenido </li>
+                </ul>
+
+            </td>
+
+          
+
+            <td>
+
+                <img src="etiquetashtml.png" alt="Etiquetas y atributos">
+
+            </td>
+        </tr>
+    </table>
+
+    <div class="link">
+
+        <a href="conceptos2.html"> TIPOS DE ATRIBUTOS Y ELEMENTOS </a>
+
+    </div>
+
+    
+    
+</body>
+</html>

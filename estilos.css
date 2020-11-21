@@ -1,0 +1,63 @@
+h1 {
+    color: #f0b429;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    color: #F47920;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+h4 {
+    color: #808080;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+
+}
+
+.tabla {
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #b3b3b3;
+    text-align: justify;
+    width: 100%;
+    
+
+}
+
+.titulo {
+    text-align: center;
+
+
+}
+
+p {
+    color: #b3b3b3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.menu {
+    padding: 20px;
+    background-color: #f0b429;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+
+}
+
+.link {
+    padding: 10px;
+    background-color: #b3b3b3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 21%;
+}

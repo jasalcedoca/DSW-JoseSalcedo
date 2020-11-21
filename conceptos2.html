@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <style>
+        body { background-color: #005883;}
+    </style>
+
+</head>
+
+<body>
+
+    <h1 class="titulo"> Estructura basica de HTML 5 </h1>
+
+    <div class="menu">
+
+        <a href="inicio.html">INICIO | </a>
+        <a href="conceptos.html">CONCEPTOS | </a>
+        <a href="recursos.html">RECURSOS | </a>
+        <a href="autoevaluacion.html">AUTOEVALUACION | </a>
+        <a href="autor.html">AUTOR | </a>
+       
+    </div> <br> 
+
+    <div class="link">
+
+        <a href="conceptos.html"> volver a conceptos </a>
+
+    </div>
+
+   
+
+    <table class="tabla">
+
+        <tr>
+            <td>
+
+                <h2> Tipos de atributos </h2>
+                Aunque cada una de las etiquetas HTML define sus propios atributos, encontramos algunos comunes a muchas o casi todas las etiquetas, 
+                que se dividen en cuatro grupos según su funcionalidad:
+                <ul>
+                    <li> Atributos básicos </li>
+                    <li> Atributos de internacionalización </li>
+                    <li> Atributos de eventos </li>
+                    <li> Atributos de foco </li>
+                </ul>
+
+                <h3> Atributos basicos: </h3>
+                Los atributos básicos se utilizan en la mayoría de etiquetas HTML y XHTML, aunque adquieren mayor sentido cuando se utilizan hojas de estilo en cascada (CSS):
+                 <ul> 
+                  <li> <b> id="texto" </b> Establece un indicador único a cada elemento </li>
+                  <li> <b> class="texto" </b> Establece la clase CSS que se aplica a los estilos del elemento </li>
+                  <li> <b> style="texto" </b> Aplica de forma directa los estilos CSS de un elemento </li>
+                  <li> <b> title="texto" </b> Establece el título del elemento (Mejora la accesibilidad) </li>
+                 </ul>
+            
+               <h3> Atributos de internacionalizacion: </h3>
+                   Estos atributos se utilizan en aquellas páginas que muestran sus contenidos en varios idiomas y las que quieran indicar de forma explícita el idioma de sus contenidos:
+                 <ul> 
+                  <li> <b> lang="codigo" </b> Indica el idioma del elemento </li>
+                  <li> <b> xml:lang="codigo" </b> Indica el idioma del elemento, aunque tiene más prioridad que el atributo anterior y es obligatorio si se incluye el atributo lang </li>
+                  <li> <b> dir </b> Indica la dirección del texto </li>
+                 </ul> 
+
+               <h3> Atributos de eventos: </h3>
+            
+                 <ul> 
+                  <li> <b> onclick </b> Ejecuta la acción cuando se realiza un clic sobre el elemento </li>
+                  <li> <b> ondblclick </b> Ejecuta la acción cuando se realiza un doble clic sobre el elemento </li>
+                  <li> <b> onmousedown </b> Ejecuta la acción cuando se detecta el botón pulsado del ratón </li>
+                  <li> <b> onmouseup </b> Ejecuta la acción cuando se detecta que se ha soltado el botón del ratón </li>
+                  <li> <b> onmousemove </b> Ejecuta la acción cuando se detecta el movimiento del ratón sobre el elemento </li>
+                  <li> <b> onmouseout </b> Ejecuta la acción cuando el ratón abandona el elemento </li>
+                  <li> <b> onmouseover </b> Ejecuta la acción cuando se detecta que el ratón se sitúa sobre el elemento </li>
+                 </ul>
+            
+               <h3> Atributos de foco: </h3>
+                 <ul> 
+                  <li> <b> accesskey="letra" </b> Establece una tecla de acceso rápido a un elemento HTML </li>
+                  <li> <b> tabindex="numero" </b> Establece la posición del elemento en el orden de tabulación de la página (valor entre 0 y 32.767) </li>
+                  <li> <b> onfocus, onblur	Controlan los eventos JavaScript que se ejecutan cuando el elemento obtiene o pierde el foco </b> </li>
+                 </ul>
+
+
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h2> Elementos </h2>
+                Además de etiquetas y atributos, HTML define el término elemento para referirse a las partes que componen los documentos HTML. 
+                El lenguaje HTML clasifica a todos los elementos en dos grupos: elementos en línea o inline elements y elementos en bloque o block elements. 
+                La diferencia entre ambos viene dada por el modelo de contenido, por el formato y la dirección. La principal diferencia entre los dos tipos de elementos es la forma en la que ocupan el espacio disponible en la página: 
+                los elementos en bloque siempre empiezan en una nueva línea y ocupan todo el espacio disponible hasta el final de la línea, mientras que los elementos en línea sólo ocupan el espacio necesario para mostrar sus contenidos.
+                
+                <h3> Elementos en linea </h3>
+                <ul>
+                    <li> <b> a </b> Define un anchor (anclaje o hipervínculo) </li>
+                    <li> <b> abbr </b> Marca las abreviaturas del texto y proporciona el significado de esas abreviaturas </li>
+                    <li> <b> acronym </b> Marca las siglas o acrónimos del texto y proporciona el significado de esas siglas </li>
+                    <li> <b> b </b> Indica que el texto debe ser representado e bold (o negrita) </li>
+                    <li> <b> basefont </b> Permite cambiar algunas propiedades del texto </li>
+                    <li> <b> bdo </b> Anulación del algoritmo bidireccional (en referencia a la dirección de la escritura) </li>
+                    <li> <b> big </b> Muestra el texto marcado con un tamaño de fuente más grande </li>
+                    <li> <b> br </b> line break - ruptura (o salto) de línea </li>
+                    <li> <b> cite </b> Se emplea para marcar una cita o una referencia a otras fuentes </li>
+                    <li> <b> code </b> Delimita el texto considerado un fragmento de código fuente </li>
+                    <li> <b> dfn </b> Marca las definiciones de ciertos términos y proporciona el significado de éstos </li>
+                    <li> <b> em </b> emphasis – énfasis </li>
+                    <li> <b> font </b> Indica el tamaño, color, o fuente del texto que contiene </li>
+                    <li> <b> i </b> Muestra el texto marcado con un estilo en cursiva o itálica </li>
+                    <li> <b> img </b> Imagen </li>
+                    <li> <b> imput </b> Posibilita y define la introducción de datos en el formulario </li>
+                    <li> <b> kbd </b> Indicar al usuario el texto que debe introducir </li>
+                    <li> <b> label </b> Asocia un rótulo o etiqueta a un campo de un formulario </li>
+                    <li> <b> q </b> short quotations - cita corta </li>
+                    <li> <b> s </b> strike-through - tachado </li>
+                    <li> <b> samp </b> Sirve identificar una muestra de los caracteres que forman la salida o el resultado de algún proceso </li>
+                    <li> <b> select </b> Crea un contenedor mediante el cual el usuario puede seleccionar de una lista de opciones </li>
+                    <li> <b> small </b> Aplica al texto marcado un tamaño de fuente más pequeño </li>
+                    <li> <b> span </b> Es un contenedor genérico en línea. Sirve para para aplicar estilo al texto o agrupar elementos en línea </li>
+                    <li> <b> strike </b> Muestra el texto tachado con una linea horizontal </li>
+                    <li> <b> strong </b> Marca con especial énfasis las partes más importantes de un texto </li>
+                    <li> <b> sub </b> Crea un subíndice posicionando el texto marcado por debajo de la linea </li>
+                    <li> <b> sup </b> Crea un superíndice posicionando el texto marcado por encima de la linea </li>
+                    <li> <b> textarea </b> Crea un control de entrada de texto multilínea </li>
+                    <li> <b> tt </b> Representa como texto de teletipo o ancho fijo </li>
+                    <li> <b> u </b> Muestra el texto subrayado </li>
+                    <li> <b> var </b> Marca variables de programas y similares </li>
+                </ul>
+                
+                <h3> Elementos en bloque </h3>
+                <ul>
+                    <li> <b> address </b> Contiene la información de contacto con los autores del documento </li>
+                    <li> <b> blockquote </b> Indica que el texto que encierra es una cita textual de otro texto externos </li>
+                    <li> <b> center </b> Crea una caja en bloque con el contenido centrado </li>
+                    <li> <b> dir </b> Crea listas multicolumna de directorios </li>
+                    <li> <b> div </b> Es un elemento en bloque genérico y sirve para crear secciones o agrupar contenidos </li>
+                    <li> <b> dl </b> Crea una lista de definiciones </li>
+                    <li> <b> fieldset </b> Permite organizar en grupos los campos de un formulario </li>
+                    <li> <b> form </b> Actúa como contenedor de controles. Representa un formulario </li>
+                    <li> <b> h1, h2, h3, h4, h5, h6 </b> Crea un encabezado o título de primer, segundo, tercer, cuarto, quinto o sexto nivel para una sección del documento respectivamente </li>
+                    <li> <b> hr </b> Crea una linea de separación horizontal </li>
+                    <li> <b> isindex </b> Crea un control de entrada de texto de una línea </li>
+                    <li> <b> menu </b> Crea un menú </li>
+                    <li> <b> noframes </b> (sin marcos) - aporta contenidos alternativos a los marcos </li>
+                    <li> <b> nos-cript </b> Contenedor de contenido alternativo para la representación no basada en scripts </li>
+                    <li> <b> ol </b> Crea una lista ordenada </li>
+                    <li> <b> p </b> Párrafo </li>
+                    <li> <b> pr </b> Permite que el texto conserve el formato y sea mostrado tal cual </li>
+                    <li> <b> table </b> Tabla </li>
+                    <li> <b> ul </b> Crea una lista no ordenada </li>
+                </ul>
+
+            </td>
+        </tr>
+
+    </table>
+
+    <h4> REFERENCIAS </h4>
+
+    <P> García, J. M. B. (2019, 21 octubre). Estructura de HTML5 y para qué se utiliza la semántica del código. Blog de arsys.es. https://www.arsys.es/blog/soluciones/hosting/estructura-de-html5-y-para-que-se-utiliza-la-semantica-del-codigo/ </P>
+    <p> Garro, A. (2015). Etiquetas, atributos y elementos | XHTML. arkaitzgarro. https://www.arkaitzgarro.com/xhtml/capitulo-3.html </p>
+    
+</body>
+</html>
