@@ -1,5 +1,5 @@
 h1 {
-    color: #f0b429;
+    color: #005883;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
 }
@@ -17,7 +17,7 @@ h3 {
 }
 
 h4 {
-    color: #808080;
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
 
@@ -27,7 +27,7 @@ h4 {
 .tabla {
     padding: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #b3b3b3;
+    color: black;
     text-align: justify;
     width: 100%;
     
@@ -41,7 +41,7 @@ h4 {
 }
 
 p {
-    color: #b3b3b3;
+    color: #005883;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
@@ -57,7 +57,7 @@ p {
 
 .link {
     padding: 10px;
-    background-color: #b3b3b3;
+    background-color: #f0b429;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 21%;
 }
